@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 18rem;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* .card ul {
+    height: 150px;
+  } */
+.img {
+  height: 200px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+.card ul li {
+  height: 60px;
+}
+
+.UPDEL {
+  /* height: 80px; */
+  margin-top: 30px;
+}
+
+.UPDEL a {
+  text-decoration: none;
+}
+
+.UPDEL a span {
+  color: white;
+  font-size: 20px;
+  padding: 19px;
+  margin: 7px;
+
+  text-align: center;
+}
+/* .UPDEL a:nth-child(1) span {
+    background-color: #64b5f6;
+  } */
+.UPDEL a:nth-child(1) span:hover {
+  background-color: #363680;
+  /* background-color: red; */
+}
+.UPDEL a:nth-child(2) span {
+  background-color: red;
+}
+.UPDEL a:nth-child(2) span:hover {
+  background-color: #7b3f3f;
+  /* background-color: red; */
+}
+
+/* insert page  */
+
+.insertF,
+.updateF {
+  width: 900px;
+  margin: 30px auto;
+}
+.insertF input,
+.updateF input {
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+}
+.insertF .btn,
+.updateF .btn {
+  width: 100px;
+  color: white;
+  padding: 6px;
+  border: none;
+}
+.insertF .btn {
+  background-color: #12af0f;
+}
+.updateF .btn {
+  background-color: #af7c0f;
+  cursor: pointer;
+}
+
+.updateF b {
+  margin: 40px;
+}
+.updateF b:nth-child(1) {
+  margin: 10px;
+}
+/* update page */
